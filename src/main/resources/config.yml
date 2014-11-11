@@ -1,0 +1,740 @@
+settings:
+  basic:
+    item:
+      name: '&3TurretBase'
+      lore:
+      - '&1line one'
+      - '&1line two'
+      - '&1line three'
+    values:
+      ArrowTurret:
+        range:
+        - 20.0
+        - 21.0
+        - 22.0
+        - 23.0
+        - 24.0
+        - 25.0
+        - 26.0
+        - 27.0
+        - 28.0
+        - 29.0
+        fireRate:
+        - 50
+        - 45
+        - 30
+        - 45
+        - 40
+        - 30
+        - 25
+        - 20
+        - 15
+        - 10
+        accuracy:
+        - 0.55
+        - 0.6
+        - 0.65
+        - 0.7
+        - 0.75
+        - 0.8
+        - 0.85
+        - 0.9
+        - 0.95
+        - 1.0
+      FireBallTurret:
+        range:
+        - 20.0
+        - 21.0
+        - 22.0
+        - 23.0
+        - 24.0
+        - 25.0
+        - 26.0
+        - 27.0
+        - 28.0
+        - 29.0
+        fireRate:
+        - 50
+        - 45
+        - 30
+        - 45
+        - 40
+        - 30
+        - 25
+        - 20
+        - 15
+        - 10
+        accuracy:
+        - 0.55
+        - 0.6
+        - 0.65
+        - 0.7
+        - 0.75
+        - 0.8
+        - 0.85
+        - 0.9
+        - 0.95
+        - 1.0
+      SlownessTurret:
+        range: 20
+        fireRate: 40
+        accuracy: 0.8
+        slownessDuration:
+        - 10
+        - 25
+        - 40
+        - 55
+        - 70
+        - 85
+        - 100
+        - 115
+        - 130
+        - 145
+      BlindnessTurret:
+        range: 20
+        fireRate: 40
+        accuracy: 0.8
+        BlindnessDuration:
+        - 10
+        - 25
+        - 40
+        - 55
+        - 70
+        - 85
+        - 100
+        - 115
+        - 130
+        - 145
+  turretOwners:
+    maxTurretsPerBasicPlayer: 8
+    maxTurretsPerAdvPlayer: 12
+  turrets:
+    prices:
+    - 100
+    - 150
+    - 200
+    - 250
+    - 300
+    - 350
+    - 400
+    - 450
+    - 500
+    - 550
+    - 600
+    - 650
+upgrades:
+  items:
+    turretTier:
+      ArrowTier:
+        displayName: '&2Arrow Turret'
+        lore:
+        - 'Lore #1'
+        - ''
+        - And above this one is an empty line for reference
+      SlownessTier:
+        displayName: '&2Slowness Turret'
+        lore:
+        - 'Lore #2'
+        - ''
+        - And above this one is an empty line for reference
+      FireballTier:
+        displayName: '&2Fireball Turret'
+        lore:
+        - 'Lore #3'
+        - ''
+        - And above this one is an empty line for reference
+      BlindnessTier:
+        displayName: '&2Blindness Turret'
+        lore:
+        - 'Lore #4'
+        - ''
+        - And above this one is an empty line for reference
+    ArrowTurret:
+      rangeTier:
+        one:
+          displayName: '&aRange level 1'
+          lore:
+          - 'Lore #5'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aRange level 2'
+          lore:
+          - 'Lore #6'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aRange level 3'
+          lore:
+          - 'Lore #7'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aRange level 4'
+          lore:
+          - 'Lore #8'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aRange level 5'
+          lore:
+          - 'Lore #9'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aRange level 6'
+          lore:
+          - 'Lore #10'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aRange level 7'
+          lore:
+          - 'Lore #11'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aRange level 8'
+          lore:
+          - 'Lore #12'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aRange level 9'
+          lore:
+          - 'Lore #13'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aRange level 10'
+          lore:
+          - 'Lore #14'
+          - ''
+          - And above this one is an empty line for reference
+      accuracyTier:
+        one:
+          displayName: '&aAccuarcy level 1'
+          lore:
+          - 'Lore #15'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aAccuarcy level 2'
+          lore:
+          - 'Lore #16'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aAccuarcy level 3'
+          lore:
+          - 'Lore #17'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aAccuarcy level 4'
+          lore:
+          - 'Lore #18'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aAccuarcy level 5'
+          lore:
+          - 'Lore #19'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aAccuarcy level 6'
+          lore:
+          - 'Lore #20'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aAccuarcy level 7'
+          lore:
+          - 'Lore #21'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aAccuarcy level 8'
+          lore:
+          - 'Lore #22'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aAccuarcy level 9'
+          lore:
+          - 'Lore #23'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aAccuarcy level 10'
+          lore:
+          - 'Lore #24'
+          - ''
+          - And above this one is an empty line for reference
+      fireRateTier:
+        one:
+          displayName: '&aFire Rate level 1'
+          lore:
+          - 'Lore #25'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aFire Rate level 2'
+          lore:
+          - 'Lore #26'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aFire Rate level 3'
+          lore:
+          - 'Lore #27'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aFire Rate level 4'
+          lore:
+          - 'Lore #28'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aFire Rate level 5'
+          lore:
+          - 'Lore #29'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aFire Rate level 6'
+          lore:
+          - 'Lore #30'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aFire Rate level 7'
+          lore:
+          - 'Lore #31'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aFire Rate level 8'
+          lore:
+          - 'Lore #32'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aFire Rate level 9'
+          lore:
+          - 'Lore #33'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aFire Rate level 10'
+          lore:
+          - 'Lore #34'
+          - ''
+          - And above this one is an empty line for reference
+      fireUpgrade:
+        displayName: '&aFire Arrow'
+        lore:
+        - 'Lore #35'
+        - ''
+        - And above this one is an empty line for reference
+    SlownessTurret:
+      slownessUpgrade:
+        one:
+          displayName: '&1Slowness Level 1'
+          lore:
+          - 'Lore #36'
+          - ''
+          - And above this line is an empty line for reference
+        two:
+          displayName: '&1Slowness Level 2'
+          lore:
+          - 'Lore #37'
+          - ''
+          - And above this line is an empty line for reference
+        three:
+          displayName: '&1Slowness Level 3'
+          lore:
+          - 'Lore #38'
+          - ''
+          - And above this line is an empty line for reference
+        four:
+          displayName: '&1Slowness Level 4'
+          lore:
+          - 'Lore #39'
+          - ''
+          - And above this line is an empty line for reference
+        five:
+          displayName: '&1Slowness Level 5'
+          lore:
+          - 'Lore #40'
+          - ''
+          - And above this line is an empty line for reference
+        six:
+          displayName: '&1Slowness Level 6'
+          lore:
+          - 'Lore #41'
+          - ''
+          - And above this line is an empty line for reference
+        seven:
+          displayName: '&1Slowness Level 7'
+          lore:
+          - 'Lore #42'
+          - ''
+          - And above this line is an empty line for reference
+        eight:
+          displayName: '&1Slowness Level 8'
+          lore:
+          - 'Lore #43'
+          - ''
+          - And above this line is an empty line for reference
+        nine:
+          displayName: '&1Slowness Level 9'
+          lore:
+          - 'Lore #44'
+          - ''
+          - And above this line is an empty line for reference
+        ten:
+          displayName: '&1Slowness Level 10'
+          lore:
+          - 'Lore #45'
+          - ''
+          - And above this line is an empty line for reference
+    FireBallTurret:
+      rangeTier:
+        one:
+          displayName: '&aRange level 1'
+          lore:
+          - 'Lore #5'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aRange level 2'
+          lore:
+          - 'Lore #6'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aRange level 3'
+          lore:
+          - 'Lore #7'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aRange level 4'
+          lore:
+          - 'Lore #8'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aRange level 5'
+          lore:
+          - 'Lore #9'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aRange level 6'
+          lore:
+          - 'Lore #10'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aRange level 7'
+          lore:
+          - 'Lore #11'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aRange level 8'
+          lore:
+          - 'Lore #12'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aRange level 9'
+          lore:
+          - 'Lore #13'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aRange level 10'
+          lore:
+          - 'Lore #14'
+          - ''
+          - And above this one is an empty line for reference
+      accuracyTier:
+        one:
+          displayName: '&aAccuarcy level 1'
+          lore:
+          - 'Lore #15'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aAccuarcy level 2'
+          lore:
+          - 'Lore #16'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aAccuarcy level 3'
+          lore:
+          - 'Lore #17'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aAccuarcy level 4'
+          lore:
+          - 'Lore #18'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aAccuarcy level 5'
+          lore:
+          - 'Lore #19'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aAccuarcy level 6'
+          lore:
+          - 'Lore #20'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aAccuarcy level 7'
+          lore:
+          - 'Lore #21'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aAccuarcy level 8'
+          lore:
+          - 'Lore #22'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aAccuarcy level 9'
+          lore:
+          - 'Lore #23'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aAccuarcy level 10'
+          lore:
+          - 'Lore #24'
+          - ''
+          - And above this one is an empty line for reference
+      fireRateTier:
+        one:
+          displayName: '&aFire Rate level 1'
+          lore:
+          - 'Lore #25'
+          - ''
+          - And above this one is an empty line for reference
+        two:
+          displayName: '&aFire Rate level 2'
+          lore:
+          - 'Lore #26'
+          - ''
+          - And above this one is an empty line for reference
+        three:
+          displayName: '&aFire Rate level 3'
+          lore:
+          - 'Lore #27'
+          - ''
+          - And above this one is an empty line for reference
+        four:
+          displayName: '&aFire Rate level 4'
+          lore:
+          - 'Lore #28'
+          - ''
+          - And above this one is an empty line for reference
+        five:
+          displayName: '&aFire Rate level 5'
+          lore:
+          - 'Lore #29'
+          - ''
+          - And above this one is an empty line for reference
+        six:
+          displayName: '&aFire Rate level 6'
+          lore:
+          - 'Lore #30'
+          - ''
+          - And above this one is an empty line for reference
+        seven:
+          displayName: '&aFire Rate level 7'
+          lore:
+          - 'Lore #31'
+          - ''
+          - And above this one is an empty line for reference
+        eight:
+          displayName: '&aFire Rate level 8'
+          lore:
+          - 'Lore #32'
+          - ''
+          - And above this one is an empty line for reference
+        nine:
+          displayName: '&aFire Rate level 9'
+          lore:
+          - 'Lore #33'
+          - ''
+          - And above this one is an empty line for reference
+        ten:
+          displayName: '&aFire Rate level 10'
+          lore:
+          - 'Lore #34'
+          - ''
+          - And above this one is an empty line for reference
+    BlindnessTurret:
+      blindnessUpgrade:
+        one:
+          displayName: '&1Slowness Level 1'
+          lore:
+          - 'Lore #36'
+          - ''
+          - And above this line is an empty line for reference
+        two:
+          displayName: '&1Slowness Level 2'
+          lore:
+          - 'Lore #37'
+          - ''
+          - And above this line is an empty line for reference
+        three:
+          displayName: '&1Slowness Level 3'
+          lore:
+          - 'Lore #38'
+          - ''
+          - And above this line is an empty line for reference
+        four:
+          displayName: '&1Slowness Level 4'
+          lore:
+          - 'Lore #39'
+          - ''
+          - And above this line is an empty line for reference
+        five:
+          displayName: '&1Slowness Level 5'
+          lore:
+          - 'Lore #40'
+          - ''
+          - And above this line is an empty line for reference
+        six:
+          displayName: '&1Slowness Level 6'
+          lore:
+          - 'Lore #41'
+          - ''
+          - And above this line is an empty line for reference
+        seven:
+          displayName: '&1Slowness Level 7'
+          lore:
+          - 'Lore #42'
+          - ''
+          - And above this line is an empty line for reference
+        eight:
+          displayName: '&1Slowness Level 8'
+          lore:
+          - 'Lore #43'
+          - ''
+          - And above this line is an empty line for reference
+        nine:
+          displayName: '&1Slowness Level 9'
+          lore:
+          - 'Lore #44'
+          - ''
+          - And above this line is an empty line for reference
+        ten:
+          displayName: '&1Slowness Level 10'
+          lore:
+          - 'Lore #45'
+          - ''
+          - And above this line is an empty line for reference
+  costs:
+    turretTier:
+      ArrowTier: 0
+      SlownessTier: 1500
+      FireballTier: 3000
+      BlindnessTier: 4500
+    ArrowTurret:
+      rangeTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+      accuracyTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+      fireRateTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+      fireUpgrade: 8500
+    FireballTurret:
+      rangeTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+      accuracyTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+      fireRateTier:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+    SlownessTurret:
+      slownessUpgrade:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500
+    BlindnessTurret:
+      blindnessUpgrade:
+        two: 500
+        three: 1500
+        four: 2500
+        five: 3500
+        six: 4500
+        seven: 5500
+        eight: 6500
+        nine: 7500
+        ten: 8500

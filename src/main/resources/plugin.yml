@@ -1,0 +1,10 @@
+name: TurretsReloaded
+main: me.ssh.secretservice.turretsReloaded.TurretsReloaded
+author: SecretService
+version: 1.0
+depend: [Vault, Nations]
+load: STARTUP
+commands:
+  turret:
+    usage: /turret
+    description: Command used to get a turret
